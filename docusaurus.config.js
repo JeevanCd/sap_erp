@@ -5,13 +5,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://jeevancd.github.io',
+  url: 'https://jeevanCd.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'JeevanCd', // Usually your GitHub org/user name.
-  projectName: 'sap_erp', // Usually your repo name.
+  projectName: 'jeevanCd.github.io', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: 'SAP ERP',
